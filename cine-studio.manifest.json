@@ -1,0 +1,22 @@
+{
+  "name": "CineStudio",
+  "version": "0.1.0",
+  "agent_entrypoint": "AGENT_BOOTSTRAP.md",
+  "human_entrypoint": "START_HERE.md",
+  "workflow": "WORKFLOW.md",
+  "modes": {
+    "X": {
+      "workflow": "workflows/x-mode.md",
+      "aspect_ratio": "9:16",
+      "visual_policy": ["photography", "realistic illustration", "realistic comic"]
+    },
+    "Y": {
+      "workflow": "workflows/y-mode.md",
+      "aspect_ratio": "21:9",
+      "visual_policy": ["live-action", "photorealistic cinematography", "realistic VFX"],
+      "forbidden_visual_policy": ["comic", "anime", "3D-animation look"]
+    }
+  },
+  "adaptation_modes": ["STRICT", "EXPAND", "ADAPT"],
+  "global_agents_md_required": false
+}

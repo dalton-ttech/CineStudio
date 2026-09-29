@@ -1,0 +1,47 @@
+# Local projects and private source assets
+projects/
+private/
+local/
+outputs/
+
+# Media and licensed assets
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.tif
+*.tiff
+*.mov
+*.mp4
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.aif
+*.aiff
+*.psd
+*.ai
+*.prproj
+*.drp
+*.blend
+*.fbx
+*.obj
+
+# Allow intentional docs/example media if explicitly added
+!docs/**/*.png
+!docs/**/*.jpg
+!examples/**/*.png
+!examples/**/*.jpg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,19 @@
+{
+  "id": "GU001",
+  "target_ratio": "21:9",
+  "target_duration_seconds": null,
+  "included_shots": [],
+  "opening_state": "",
+  "closing_state": "",
+  "reference_map": {},
+  "keyframes": [],
+  "dialogue": [],
+  "voice_over": [],
+  "ambience": [],
+  "foley": [],
+  "sfx": [],
+  "music_intent": "",
+  "seedance_prompt": "",
+  "continuity_requirements": [],
+  "review_status": "PLANNED"
+}
