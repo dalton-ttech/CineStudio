@@ -1,0 +1,5 @@
+{
+  "@image1": {"asset": "", "purpose": "character|scene|prop|keyframe"},
+  "@video1": {"asset": "", "purpose": "motion|camera|performance"},
+  "@audio1": {"asset": "", "purpose": "voice|dialogue|music|ambience"}
+}
